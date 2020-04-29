@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for i in wordpress-*.html
+do
+	echo "<url>" >> sitemap2
+	echo "    <loc>https://wpinfusion.com/$i</loc>" >> sitemap2
+	echo "    <lastmod>2019-03-16</lastmod>" >> sitemap2
+	echo "    <changefreq>monthly</changefreq>" >> sitemap2
+	echo "    <priority>0.5</priority>" >> sitemap2
+	echo "</url>" >> sitemap2
+
+done
+

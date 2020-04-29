@@ -1,0 +1,31 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+i.icon-et-tools-2 {
+	line-height: inherit;
+}
+
+@media (max-width: 575.98px){
+	#primary-menu-trigger{
+		left: 0px;
+	}
+}
+
+.si-instagram:hover, .si-colored.si-instagram {
+	background-color: #69da83 !important;
+}
+
+.owl-carousel .owl-item img {
+	width: auto;
+	height: 50px;
+}
+
+@media (min-width: 992px){
+	.slider-title h2 {
+		font-size: 47px;
+	}
+}
