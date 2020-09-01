@@ -29,3 +29,7 @@ i.icon-et-tools-2 {
 		font-size: 47px;
 	}
 }
+
+#contact-content ::after {
+    display: none;
+}
